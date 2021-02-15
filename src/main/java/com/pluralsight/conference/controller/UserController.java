@@ -19,7 +19,7 @@ public class UserController {
 		user.setFirstName(firstname);
 		user.setLastName(lastname);
 		user.setAge(age);
-		
+		System.out.println("in here " + firstname);
 		return user;
 	}
 	
